@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+
+<body class="bg-white">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow p-4">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between">
+
+      <!-- Kiri: Logo dan Teks -->
+      <div class="flex items-center space-x-4">
+        <a href="#">
+          <img src="https://ppdb.smktelkom-mlg.sch.id/assets/home/img/logo_hitam.png" alt="Logo SMK Telkom" class="h-10">
+        </a>
+        <div>
+          <h1 class="text-xl font-extrabold tracking-widest text-gray-900">SMK TELKOM - MALANG</h1>
+          <p class="text-xs text-gray-500">Dhamay Lahutagistha Pramu Putri</p>
+        </div>
+      </div>
+
+      <!-- Navigasi -->
+      <div class="flex items-center gap-4">
+        <a href="index.html"
+          class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring">
+          <span class="text-sm font-medium">Pelajaran</span>
+        </a>
+        <a href="index.html"
+          class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring">
+          <span class="text-sm font-medium">Daftar</span>
+        </a>
+        <a href="index.html"
+          class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:outline-none focus:ring">
+          <span class="text-sm font-medium">Log in</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+ <!-- Hero Section -->
+<section
+  class="mt-10 min-h-[80vh] flex items-center justify-center bg-[url('https://res.cloudinary.com/mokletorg/image/upload/v1720667149/app_media/file_kapsos.jpg')] bg-cover bg-center bg-no-repeat"
+>
+  <div class="bg-black/60 w-full h-full flex items-center justify-center p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="text-center text-white max-w-xl">
+      <h2 class="text-2xl font-bold sm:text-3xl md:text-5xl">SMK Telkom Malang</h2>
+      <p class="mt-6 text-white/90 md:text-lg md:leading-relaxed">
+        SMK Telkom Malang adalah pelopor Sekolah Menengah Kejuruan pertama di Indonesia di bidang Teknologi dan Informatika. Berpengalaman sejak tahun 1992 dan telah terakreditasi "A".
+      </p>
+
+      <!-- Tombol -->
+      <div class="mt-8 space-y-4">
+        <!-- Tombol Email -->
+        <a href="#"
+          class="inline-block rounded-md bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-700 transition">
+          Daftar dengan Email
+        </a>
+
+        <p class="text-white">atau</p>
+
+        <!-- Tombol Facebook dan Twitter -->
+        <div class="flex flex-col sm:flex-row sm:justify-center gap-4">
+          <a href="#"
+            class="inline-block rounded-md bg-blue-800 px-6 py-3 text-sm font-semibold text-white hover:bg-blue-900 transition">
+            Daftar dengan Facebook
+          </a>
+          <a href="#"
+            class="inline-block rounded-md bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-600 transition">
+            Daftar dengan Twitter
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Content -->
+<section class="bg-white py-16">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-semibold text-gray-800 mb-12">Kenapa harus Moklet?</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 justify-items-center">
+      
+      <!-- RPL -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-40 h-40 flex items-center justify-center bg-gradient-to-br from-teal-400 to-green-300 rounded-full shadow-md">
+          <span class="text-white font-bold text-center px-4">Rekayasa Perangkat Lunak</span>
+        </div>
+        <p class="mt-4 text-sm text-gray-600 max-w-xs">
+          Mempelajari seluruh aspek produksi software seperti aplikasi web dan aplikasi mobile.
+        </p>
+      </div>
+
+      <!-- TKJ -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-40 h-40 flex items-center justify-center bg-gradient-to-br from-yellow-400 to-yellow-300 rounded-full shadow-md">
+          <span class="text-white font-bold text-center px-4">Teknik Komputer dan Jaringan</span>
+        </div>
+        <p class="mt-4 text-sm text-gray-600 max-w-xs">
+          Mempelajari cara merakit, instalasi, dan perbaikan komputer, jaringan LAN & WAN, serta IoT.
+        </p>
+      </div>
+
+      <!-- PG -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-40 h-40 flex items-center justify-center bg-gradient-to-br from-pink-500 to-red-400 rounded-full shadow-md">
+          <span class="text-white font-bold text-center px-4">Pengembangan Gim</span>
+        </div>
+        <p class="mt-4 text-sm text-gray-600 max-w-xs">
+          Mempelajari seluruh aspek pengembangan gim seperti desain, pengembangan, dan perilisan game.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Section CTA -->
+<section class="bg-red-700/10 py-24">
+  <div class="max-w-3xl mx-auto text-center px-6">
+    <h2 class="text-2xl md:text-3xl font-semibold text-gray-700">
+      The Real Informatics School.
+    </h2>
+    <p class="mt-4 text-gray-600 text-base md:text-lg">
+      Pelopor SMK bidang Teknologi dan Informatika di Indonesia
+    </p>
+    <div class="mt-8">
+      <a href="#" class="inline-block bg-red-700 hover:bg-white-500 text-white font-semibold text-sm px-8 py-3 rounded-md shadow-md transition duration-300 ease-in-out">
+        Join Now
+      </a>
+    </div>
+  </div>
+</section>
+
+     <!-- Footer -->
+<footer class="bg-white border-t border-gray-300 mt-10 py-4">
+  <div class="max-w-screen-xl mx-auto flex flex-col sm:flex-row items-center justify-start px-4 gap-4">
+    
+    <!-- Logo -->
+    <img src="https://ppdb.smktelkom-mlg.sch.id/assets/home/img/logo_hitam.png"
+         alt="Logo SMK Telkom"
+         class="h-10">
+
+    <!-- Teks -->
+    <div class="text-left">
+      <h2 class="text-sm font-bold text-gray-800 tracking-widest">SMK TELKOM - MALANG</h2>
+      <p class="text-xs text-gray-600">Dhamay Lahutagistha Pramu Putri</p>
+    </div>
+
+  </div>
+</footer>
+
+
+
